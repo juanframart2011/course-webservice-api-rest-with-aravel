@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class categoria extends Model
+class producto extends Model
 {
     use HasFactory;
     public $timestamps = false;
     protected $fillable = [
-        'id', 'cat_nom', 'cat_obs'
+        'id', 'pro_nom', 'pro_obs'
     ];
 }
